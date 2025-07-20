@@ -31,6 +31,8 @@ AI Travel Planner is a React Native mobile application built with Expo that help
 - **Easy-to-Use Interface**  
   Intuitive UI with tab navigation for "My Trip" and "Document" sections.
 
+![Welcome screen](./globepath_1.png)
+
 ## Installation and Setup
 
 1. Clone the repository:
