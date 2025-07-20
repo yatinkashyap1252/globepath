@@ -3,7 +3,7 @@ import React from "react";
 import { useRouter } from "expo-router";
 
 const Login = () => {
-    const router=useRouter()
+  const router = useRouter();
   return (
     <View>
       <View
@@ -30,7 +30,7 @@ const Login = () => {
           Unlock the world—personalized trips are just a login away
         </Text>
         <TouchableOpacity
-        onPress={()=>router.push('auth/sign-in')}
+          onPress={() => router.push("auth/sign-in")}
           style={{
             width: "80%",
             alignItems: "center",

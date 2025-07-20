@@ -1,50 +1,94 @@
-# Welcome to your Expo app 👋
+# AI Travel Planner
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+AI Travel Planner is a React Native mobile application built with Expo that helps users create personalized travel itineraries. The app leverages AI to generate customized travel plans based on user inputs such as destination, traveler count, budget, and travel dates. It provides flight options, hotel recommendations, curated activities, and comprehensive travel information to ensure a seamless travel planning experience.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Personalized Travel Plans**  
+  Generate customized itineraries tailored to your preferences including destination, budget, and dates.
+
+- **Flight Recommendations**  
+  Get a list of flights that fit your schedule and budget with ticket fares, timings, airline options, and travel time estimates.
+
+- **Hotel Suggestions**  
+  Receive hotel recommendations with key details such as price, amenities, images, and locations.
+
+- **Curated Activities**  
+  Discover activities tailored to your destination with descriptions, pricing, ticket info, and best times to visit.
+
+- **Comprehensive Travel Information**  
+  Access rich details including images, descriptions, and travel tips for each suggestion.
+
+- **Dynamic and Customizable**  
+  Easily adjust your preferences and get updated itineraries to keep your travel plans flexible.
+
+- **User Authentication**  
+  Secure login and user-specific trip management using Firebase Authentication.
+
+- **Trip Management**  
+  View, expand, and manage your trips with detailed daily plans, hotels, and flight details.
+
+- **Easy-to-Use Interface**  
+  Intuitive UI with tab navigation for "My Trip" and "Document" sections.
+
+## Installation and Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   cd ai_travel_app
+   ```
+
+2. Install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Start the app:
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. Use the Expo Go app or an emulator to run the app on your device.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Project Structure
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- `app/` - Main application code including screens and routing.
+- `components/` - Reusable React Native components.
+- `configs/` - Configuration files including Firebase setup.
+- `constants/` - Constant values and options used across the app.
+- `context/` - React context for managing global state (e.g., trip data).
+- `services/` - External service integrations (e.g., Google Images).
+- `assets/` - Fonts, images, and other static assets.
 
-## Get a fresh project
+## Usage
 
-When you're ready, run:
+- On launch, users are prompted to log in.
+- Authenticated users are redirected to the "My Trip" tab where they can view and manage their trips.
+- The "Document" tab provides detailed documentation about the app's features and development challenges.
+- Users can create new trips, view daily plans, hotel suggestions, and flight details.
 
-```bash
-npm run reset-project
-```
+## Challenges and Learnings
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- Efficiently handling large lists with React Native's `FlatList` and pagination.
+- Structuring components for modularity and scalability.
+- Responsive design for different screen sizes and devices.
+- Managing API calls and dynamic image paths with error handling and fallbacks.
 
-## Learn more
+## Contributing
 
-To learn more about developing your project with Expo, look at the following resources:
+Contributions are welcome! Please fork the repository and submit pull requests for any improvements or bug fixes.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## License
 
-## Join the community
+This project is private and not publicly licensed.
 
-Join our community of developers creating universal apps.
+## Resources
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo Documentation](https://docs.expo.dev/)
+- [React Native Documentation](https://reactnative.dev/)
+- [Firebase Documentation](https://firebase.google.com/docs)
+- [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview)
