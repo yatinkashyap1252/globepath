@@ -8,7 +8,7 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAP4-xsSbjgxbT3Jpd8JkLdQRfzWs_1ERY",
+  apiKey: "",
   authDomain: "ai-travel-app-3a063.firebaseapp.com",
   projectId: "ai-travel-app-3a063",
   storageBucket: "ai-travel-app-3a063.firebasestorage.app",
